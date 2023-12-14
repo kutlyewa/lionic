@@ -1,0 +1,9 @@
+[*]
+charset = utf-8
+inden_style = space # Не использовать табулаяцию
+indent_size = 2 #Два пробела в табуляции
+insert_final_newline = true #Вставка пустой строки в конце файла при сохранении
+trim_trailing_whitespace = true #Отрезание ненужных пробелов
+
+[*.js]
+insert_final_newline = false #Не добавлять пустою строку в конце файла при сохранении

@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lionic</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container flex header__container">
+      <a class="header__logo" href="#">
+        <svg width="115" height="44">
+          <use xlink:href="sprite.svg#logo"></use>
+        </svg>
+      </a>
+      <nav class="nav header__nav" title="Главное меню">
+        <ul class="nav__list list-reset flex">
+          <li class="nav__item">
+            <a class="nav__link" href="#hero">
+              Home
+            </a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#services">
+              Services
+            </a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#articles">
+              Articles
+            </a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#clients">
+              Clients
+            </a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#contacts">
+              Contacts
+            </a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#join-us">
+              Join&nbsp;us
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <button class="btn header-btn btn-reset">
+        free trial
+      </button>
+      <button class="btn-reset burger" aria-label="Главное меню">
+        <span class="burger__line"></span>
+        <span class="burger__line"></span>
+        <span class="burger__line"></span>
+      </button>
+    </div>
+  </header>
+  <main class="main">
+    <section class="hero" id="hero">
+      <div class="container">
+        <div class="hero__content flex">
+          <h1 class="hero__title">
+            This is&nbsp;simply a&nbsp;smarter way to&nbsp;make your legal online
+          </h1>
+          <p class="hero__descr">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut&nbsp;laoreet dolore.
+          </p>
+          <div class="hero__wrapper flex">
+            <button class="btn hero__btn btn-reset">
+              free 30&nbsp;day trial
+            </button>
+            <span class="hero__secure">
+              SSL secured connection
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="services section-offset" id="services">
+      <div class="container">
+        <h2 class="section-title services__title">
+          Services
+        </h2>
+        <p class="section-descr services__descr">
+          Lionic guides you on&nbsp;making decisions for all aspects of&nbsp;your end-of-life plans.
+        </p>
+        <ul class="services__items list-reset flex">
+          <li class="services__item flex">
+            <svg class="services__icon" width="68" height="66">
+              <use xlink:href="sprite.svg#icon1"></use>
+            </svg>
+            <h3 class="services__subtitle">
+              Your Legacy
+            </h3>
+            <p class="services__desc">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+            </p>
+          </li>
+          <li class="services__item flex">
+            <svg class="services__icon" width="86" height="64">
+              <use xlink:href="sprite.svg#icon2"></use>
+            </svg>
+            <h3 class="services__subtitle">
+              Your Health
+            </h3>
+            <p class="services__desc">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+            </p>
+          </li>
+          <li class="services__item flex">
+            <svg class="services__icon" width="64" height="64">
+              <use xlink:href="sprite.svg#icon3"></use>
+            </svg>
+            <h3 class="services__subtitle">
+              Funeral &amp;&nbsp;Memorial
+            </h3>
+            <p class="services__desc">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+            </p>
+          </li>
+          <li class="services__item flex">
+            <svg class="services__icon" width="65" height="65">
+              <use xlink:href="sprite.svg#icon4"></use>
+            </svg>
+            <h3 class="services__subtitle">
+              Legal &amp;&nbsp;Financial
+            </h3>
+            <p class="services__desc">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="articles section-offset" id="articles">
+      <div class="container">
+        <h2 class="section-title articles__title">
+          Articles
+        </h2>
+        <ul class="articles__list list-reset flex">
+          <li class="articles__item">
+            <article class="article blog-preview flex">
+              <a class="article__link flex" href="#">
+                <img class="article__image" src="image/articles/blog-1.jpg" alt="фотография Джона Армстронга">
+                <div class="article__text">
+                  <time class="article__time" datetime="2021-11-15 19:30">
+                    15&nbsp;Nov 2021
+                  </time>
+                  <h3 class="article__title">
+                    Jurisdiction
+                  </h3>
+                  <p class="article__descr">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                  </p>
+                </div>
+              </a>
+            </article>
+          </li>
+          <li class="articles__item">
+            <article class="article blog-preview flex">
+              <a class="article__link flex" href="#">
+                <img class="article__image" src="image/articles/blog-2.jpg" alt="фотография Элизабет Мартин">
+                <div class="article__text">
+                  <time class="article__time" datetime="2021-11-28 19:30">
+                    28&nbsp;Nov 2021
+                  </time>
+                  <h3 class="article__title">
+                    Consulting
+                  </h3>
+                  <p class="article__descr">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                  </p>
+                </div>
+              </a>
+            </article>
+          </li>
+          <li class="articles__item">
+            <article class="article blog-preview flex">
+              <a class="article__link flex" href="#">
+                <img class="article__image" src="image/articles/blog-3.jpg" alt="фотография Робина Соутби">
+                <div class="article__text">
+                  <time class="article__time" datetime="2021-11-29 19:30">
+                    29&nbsp;Nov 2021
+                  </time>
+                  <h3 class="article__title">
+                    Rights and obligations
+                  </h3>
+                  <p class="article__descr">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                  </p>
+                </div>
+              </a>
+            </article>
+          </li>
+          <li class="articles__item">
+            <article class="article blog-preview flex">
+              <a class="article__link flex" href="#">
+                <img class="article__image" src="image/articles/blog-4.jpg" alt="blog photo4">
+                <div class="article__text">
+                  <time class="article__time" datetime="2021-12-11 19:30">
+                    11&nbsp;Dec 2021
+                  </time>
+                  <h3 class="article__title">
+                    Contractors
+                  </h3>
+                  <p class="article__descr">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                  </p>
+                </div>
+              </a>
+            </article>
+          </li>
+        </ul>
+        <div class="articles-center">
+          <button class="btn-reset btn articles-more">показать ещё</button>
+        </div>
+      </div>
+    </section>
+    <section class="clients section-offset" id="clients">
+      <div class="container">
+        <h2 class="section-title clients__title">
+          Clients
+        </h2>
+        <ul class="clients__list list-reset flex">
+          <li class="clients__item flex">
+            <p class="clients__descr">
+              Duis autem vel eum iriure dolor in&nbsp;hendrerit in&nbsp;vulputate velit esse molestie consequat, vel illum dolore eu&nbsp;feugiat nulla facilisis at&nbsp;vero eros et&nbsp;accumsan et&nbsp;iusto odio dignissim qui blandit odio dignissim qui blandit molestie consequat.
+            </p>
+            <div class="clients__user flex">
+              <div class="clients__avatar">
+                <img class="clients__img" src="image/clients/clients-1.jpg" alt="John Armstrong">
+              </div>
+              <div class="clients__text">
+                <div class="clients__name">
+                  John Armstrong
+                </div>
+                <span class="clients__post">
+                  Customer
+                </span>
+              </div>
+            </div>
+          </li>
+          <li class="clients__item flex">
+            <p class="clients__descr">
+              Duis autem vel eum iriure dolor in&nbsp;hendrerit in&nbsp;vulputate velit esse molestie consequat, vel illum dolore eu&nbsp;feugiat nulla facilisis at&nbsp;vero eros et&nbsp;accumsan et&nbsp;iusto odio dignissim qui blandit odio dignissim qui blandit molestie consequat.
+            </p>
+            <div class="clients__user flex">
+              <div class="clients__avatar">
+                <img class="clients__img" src="image/clients/clients-2.jpg" alt="Elizabeth Martin">
+              </div>
+              <div class="clients__text">
+                <div class="clients__name">
+                  Elizabeth Martin
+                </div>
+                <span class="clients__post">
+                  Customer
+                </span>
+              </div>
+            </div>
+          </li>
+          <li class="clients__item flex">
+            <p class="clients__descr">
+              Duis autem vel eum iriure dolor in&nbsp;hendrerit in&nbsp;vulputate velit esse molestie consequat, vel illum dolore eu&nbsp;feugiat nulla facilisis at&nbsp;vero eros et&nbsp;accumsan et&nbsp;iusto odio dignissim qui blandit odio dignissim qui blandit molestie consequat.
+            </p>
+            <div class="clients__user flex">
+              <div class="clients__avatar">
+                <img class="clients__img" src="image/clients/clients-3.jpg" alt="Robin Soutby">
+              </div>
+                <div class="clients__text">
+                  <div class="clients__name">
+                    Robin Soutby
+                  </div>
+                  <span class="clients__post">
+                    Customer
+                  </span>
+                </div>
+            </div>
+          </li>
+        </ul>
+        <div class="clients-center">
+          <button class="btn btn-reset clients-more">показать ещё</button>
+        </div>
+      </div>
+    </section>
+    <section class="contacts section-offset" id="contacts">
+      <div class="container">
+        <h2 class="section-title contacts__title">
+          Contacts
+        </h2>
+        <address class="contacts__address">
+          <ul class="contacts__list list-reset flex">
+            <li class="contacts__item flex contacts__item--location">
+              <strong class="contacts-item-caption">
+                Visit&nbsp;Us
+              </strong>
+              <p class="contacts-item-text">
+                Duis autem vel eum iriure dolor in&nbsp;hendrerit in&nbsp;vulputate velit.
+              </p>
+            </li>
+            <li class="contacts__item flex contacts__item--phone">
+              <strong class="contacts-item-caption">
+                Call&nbsp;Us
+              </strong>
+              <a class="contacts-item-link" href="tel:+79876543210">
+                +7 (987) 654-32-10
+              </a>
+              <a class="contacts-item-link" href="tel:+71234567890">
+                +7 (123) 456-78-90
+              </a>
+            </li>
+            <li class="contacts__item flex contacts__item--mail">
+              <strong class="contacts-item-caption">
+                Email&nbsp;Us
+              </strong>
+              <a class="contacts-item-link" href="mailto:example@example.com">
+                example@example.com
+              </a>
+              <a class="contacts-item-link" href="mailto:support@example.com">
+                support@example.com
+              </a>
+            </li>
+          </ul>
+        </address>
+      </div>
+    </section>
+    <section class="join-us section-offset join-us-offset" id="join-us">
+      <div class="container">
+        <h2 class="section-title join-us__title">
+          Join&nbsp;us
+        </h2>
+        <p class="section-descr join-us__descr">
+          Lionic guides you on&nbsp;making decisions for all aspects of&nbsp;your end-of-life plans.
+        </p>
+        <form class="form" action="https://jsonplaceholder.typicode.com/posts" method="post">
+          <div class="form__top flex">
+            <div class="form__left flex">
+              <div class="visually-hidden" id="name">ваше имя</div>
+              <input class="form__input" type="text" name="name" placeholder="Name" aria-labelledby="name" required>
+
+              <div class="visually-hidden" id="email">контактный email</div>
+              <input class="form__input" type="email" name="email" placeholder="E-mail" aria-labelledby="email" required>
+
+              <div class="visually-hidden" id="phone">контактный телефон</div>
+              <input class="form__input" type="tel" name="phone" placeholder="Phone" aria-labelledby="phone" required>
+              <select class="form__select" name="country">
+                <option value="Сountry" disabled selected>Сountry</option>
+                <option value="United Kingdom">United Kingdom</option>
+                <option value="United States">United States</option>
+                <option value="France">France</option>
+                <option value="Germany">Germany</option>
+                <option value="Spain">Spain</option>
+                <option value="Estonia">Estonia</option>
+              </select>
+            </div>
+            <div class="form__right">
+              <div class="visually-hidden" id="comment">оставьте своё сообщение</div>
+              <textarea class="form__textarea" name="comment" placeholder="Comment" aria-labelledby="comment"></textarea>
+            </div>
+          </div>
+          <div class="form__bottom flex">
+            <div class="form__wrapper flex">
+              <button class="btn btn-reset form__btn">get started</button>
+              <label class="check form__check">
+                <input class="check__input" type="checkbox" required checked>
+                I&nbsp;agree with the <a class="check__link" href="#">user agreement</a>
+              </label>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container flex footer__container">
+      <div class="footer__left flex">
+        <a class="footer__logo" href="#">
+          <svg width="115" height="44">
+            <use xlink:href="sprite.svg#logo"></use>
+          </svg>
+        </a>
+        <small class="footer-copy">
+          Copyright &copy;2017. All Right Reserved
+        </small>
+      </div>
+      <div class="footer__right flex">
+        <nav class="nav footer__nav" title="Второстепенное меню">
+          <ul class="nav__list list-reset flex">
+            <li class="nav__item">
+              <a class="nav__link" href="#">
+                About&nbsp;Us
+              </a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">
+                Contact&nbsp;Us
+              </a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">
+                Privacy Policy
+              </a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">
+                Terms Condition
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="social list-reset flex">
+          <li class="social__item">
+            <a class="social__link social__tw" href="#" aria-label="Twitter">
+              <svg width="18" height="14">
+                <use xlink:href="sprite.svg#tw"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link social__in" href="#" aria-label="Instagram">
+              <svg width="17" height="16">
+                <use xlink:href="sprite.svg#in"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link social__email" href="#" aria-label="Написать на почту">
+              <svg width="24" height="18">
+                <use xlink:href="sprite.svg#letter"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script defer src="js/script.js"></script>
+</body>
+</html>
