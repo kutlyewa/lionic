@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
   const articlesItem = document.querySelectorAll('.articles__item');
   const buttonMore = document.querySelector('.clients-more');
   const clientsItem = document.querySelectorAll('.clients__item');
+  const element = document.querySelector(".form__select");
 
   //burger
   burger.addEventListener('click',
@@ -38,4 +39,10 @@ document.addEventListener("DOMContentLoaded", function() {
       buttonMore.closest('.clients-center').classList.add('clients-center--hidden');
     });
   });
+
+  //choices
+  const choices = new Choices(element, {
+    searchEnabled: false,
+    itemSelectText: ""
+  })
 });
