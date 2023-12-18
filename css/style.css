@@ -572,10 +572,15 @@ color: #787878;
 .join-us__descr {
   margin: 0;
   margin-bottom: 30px;
-  text-align: center;
   font-size: 16px;
   line-height: normal;
   color: #787878;
+}
+.hidden-descr {
+  text-align: center;
+}
+.hidden {
+  display: none;
 }
 .form {
   padding: 0 55px;
@@ -620,8 +625,10 @@ color: #787878;
 /* select */
 .choices {
   width: 251px;
+  font-size: 16px;
+  line-height: 180%;
+  color: #1c1c1c;
 }
-
 .is-focused .choices__inner,
 .is-open .choices__inner {
   border: 1px solid #71a7e2;
@@ -629,18 +636,17 @@ color: #787878;
   background-color: #e3edf9;
 }
 .choices[data-type*=select-one]:after {
-  z-index: 3;
   top: 40%;
   left: 85%;
+  z-index: 3;
 }
-
 .choices__inner {
   position: relative;
-  background-color: #fff;
-  border-radius: 50px;
   z-index: 2;
+  padding: 10px 26px 16px;
+  border-radius: 50px;
   height: 60px;
-  padding: 15px 28px 16px;
+  background-color: #fff;
   transition: border-color .3s;
 }
 /* состояние для select-a */
@@ -650,7 +656,6 @@ color: #787878;
 .choices__inner:active {
   border-color: #0e3b6c;
 }
-
 .is-flipped.is-open .choices__inner {
   border-radius: 50px;
 }
@@ -659,42 +664,45 @@ color: #787878;
 }
 .choices__list--dropdown {
   top: calc(100% - 21px);
-  right: 24px;
-  width: 208px;
-  padding: 18px 0;
+  left: 26px;
+  padding: 24px 0 6px;
+  width: 82%;
 }
 .choices__list--dropdown .choices__item--selectable {
-  padding-right: 14px;
+  padding: 0 14px;
+  font-size: 16px;
+  line-height: normal;
+  color: #000;
 }
 .choices__list--dropdown .choices__item--selectable.is-highlighted {
-  background-color: #3172b9;
   color: #fff;
+  background-color: #3172b9;
+}
+.choices__list--dropdown .choices__item {
+  margin-bottom: 11px;
 }
 .choices__list--dropdown .choices__placeholder {
   display: none;
 }
-
 .choices__list--dropdown.is-active {
   border: none;
-  background-color: #fff;
   border-radius: 20px;
+  background-color: #fff;
   box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.10);
 }
-
 .form__right {
   width: 49%;
 }
 .form__textarea {
+  padding: 17px 26px;
   border-radius: 20px;
   border: 1px solid #e9e9e9;
   box-sizing: border-box;
   resize: none;
   width: 100%;
   height: 100%;
-  padding: 17px 26px;
   transition: border-color .3s ease-in-out, background-color .3s ease-in-out;
 }
-
 /* состояние для textarea-a */
 .form__textarea:focus {
   outline: none;
@@ -716,8 +724,8 @@ color: #787878;
 }
 .form__btn {
   border-radius: 50px;
-  width: 224px;
-  height: 60px;
+  min-width: 229px;
+  min-height: 60px;
   margin-bottom: 9px;
   text-transform: uppercase;
 }
