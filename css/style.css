@@ -60,3 +60,24 @@ body {
  padding-top: 87px;
  padding-bottom: 60px;
 }
+
+/* -----------------------header---------------------------- */
+.header {
+  padding: 36px 0;
+}
+
+.header-container {
+  align-items: center;
+}
+
+.header-logo {
+  margin-right: auto;
+}
+
+.header-nav {
+  margin-right: 52px;
+}
+
+.header-item:not(:last-child) {
+  margin-right: 52px;
+}
