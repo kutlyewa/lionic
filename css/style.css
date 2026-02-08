@@ -67,6 +67,16 @@ body {
   cursor: pointer;
 }
 
+.btn {
+  font-weight: 600;
+  font-size: 15px;
+  text-transform: uppercase;
+  padding: 15px 35px;
+  background-color: #3172b9;
+  color: #fff;
+  border-radius: 3px;
+}
+
 .flex {
   display: flex;
 }
@@ -95,6 +105,14 @@ body {
 /* -----------------------header---------------------------- */
 .header {
   padding: 36px 0;
+  border-bottom: 1px solid #c4c4c4;
+  background-color: #fff;
+}
+
+.header-link {
+  font-weight: 600;
+  color: #1c1c1c;
+  font-size: 15px;
 }
 
 .header-container {
