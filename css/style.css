@@ -238,3 +238,22 @@ body {
 .contacts-item-link:not(:last-child) {
   margin-right: 5px;
 }
+
+/* -----------------------footer---------------------------- */
+.footer-container {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-left,
+.footer-rieght {
+  align-items: center;
+}
+
+.footer-logo {
+  margin-right: 25px;
+}
+
+.footer-item:not(:last-child) {
+  margin-right: 28px;
+}
