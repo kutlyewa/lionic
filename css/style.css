@@ -353,6 +353,10 @@ body {
 }
 
 /* -----------------------contacts---------------------------- */
+.contacts {
+  border-bottom: 1px solid #dadada;
+}
+
 .contacts-address {
   font-style: normal;
 }
@@ -360,23 +364,46 @@ body {
 .contacts-item {
   flex-direction: column;
   width: 370px;
-  outline: 1px solid red;
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: 29px 29px;
+  padding-top: 48px;
 }
 
 .contacts-item:not(:nth-child(3n)) {
   margin-right: 30px;
 }
 
+.contacts-item-address {
+  background-image: url(../img/location_on.svg);
+}
+
+.contacts-item-call {
+  background-image: url(../img/phone.svg);
+}
+
+.contacts-item-mail {
+  background-image: url(../img/mail.svg);
+}
+
 .contacts-item-caption {
   margin-bottom: 30px;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 180%;
+  color: #1c1c1c;
 }
 
 .contacts-item-text {
   margin: 0;
+  max-width: 215px;
 }
 
-.contacts-item-link:not(:last-child) {
-  margin-right: 5px;
+.contacts-item-text,
+.contacts-item-link {
+  font-size: 14px;
+  line-height: 180%;
+  color: #787878;
 }
 
 /* -----------------------footer---------------------------- */
