@@ -241,6 +241,9 @@ body {
 }
 
 /* -----------------------articles---------------------------- */
+.articles {
+  border-bottom: 1px solid #dadada;
+}
 .articles-list {
   flex-wrap: wrap;
 }
@@ -248,11 +251,16 @@ body {
 .articles-item {
   width: 570px;
   margin-bottom: 30px;
-  outline: 1px solid red;
 }
 
 .articles-item:not(:nth-child(2n)) {
   margin-right: 30px;
+}
+
+.blog-preview {
+  overflow: hidden;
+  border: 1px solid #e4e4e4;
+  border-radius: 5px;
 }
 
 .blog-preview-image {
@@ -266,11 +274,18 @@ body {
 .blog-preview-time {
   display: block;
   margin-bottom: 5px;
+  font-size: 10px;
+  line-height: 150%;
+  color: #787878;
 }
 
 .blog-preview-title {
   margin: 0;
   margin-bottom: 15px;
+  font-size: 20px;
+  line-height: 130%;
+  color: #1c1c1c;
+  max-width: 210px;
 }
 
 .blog-preview-descr {
